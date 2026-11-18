@@ -1,0 +1,6 @@
+﻿project:
+  name: language-guided-visual-manipulation
+  seed: 42
+  dataset_repo: lerobot/libero
+  dataset_dir: data/libero
+  camera_resolution: [256, 256]

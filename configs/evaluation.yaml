@@ -1,0 +1,4 @@
+﻿evaluation:
+  seeds: [42, 43, 44]
+  episodes_per_condition: 30
+  perturbations: [none, object_shift, distractor, lighting]

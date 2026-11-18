@@ -1,0 +1,17 @@
+﻿[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "language-guided-visual-manipulation"
+version = "0.1.0"
+description = "Scaffold for visual manipulation and feedback control research"
+requires-python = ">=3.11"
+dependencies = ["numpy>=1.26", "huggingface-hub>=0.30"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8"]
+simulation = ["mujoco>=3"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
